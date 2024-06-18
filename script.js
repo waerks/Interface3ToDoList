@@ -2,8 +2,6 @@ const userInput = document.getElementById('userInput');
 const btnAjout = document.querySelector('.btnAjout');
 const toDoList = document.querySelector('.list ul');
 
-
-
 btnAjout.addEventListener('click', (event) => {
     userToDo(event);
 })
