@@ -23,5 +23,7 @@ function userToDo(){
         elemList.append(btnRemove);
         
         toDoList.append(elemList);
+
+        userInput.value = "";
     }
 }
