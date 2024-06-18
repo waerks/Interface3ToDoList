@@ -20,8 +20,10 @@ function userToDo(){
         elemList.remove();
     })
 
-    elemList.innerHTML = userInput.value + " ";
-    elemList.append(btnRemove);
-    
-    toDoList.append(elemList);
+    if (userInput.value != ""){
+        elemList.innerHTML = userInput.value + " ";
+        elemList.append(btnRemove);
+        
+        toDoList.append(elemList);
+    }
 }
